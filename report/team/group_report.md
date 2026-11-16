@@ -6,7 +6,7 @@ Tối đa 5 trang ngoài phụ lục. Số liệu lấy từ file trong `src/rep
 
 - Tên nhóm: LapRoiBo (`K5-Day8-LapRoiBo-From-Workflows-to-Agents`)
 - Thành viên: xem `TEAM.md`
-- Commit chốt (trùng `report/team/decision_adr.md`): a9b83ce
+- Commit chốt (trùng `report/team/decision_adr.md`): b2146ba
 
 ## 2. Mục tiêu và cách tiếp cận
 
