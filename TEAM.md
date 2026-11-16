@@ -5,7 +5,7 @@
 - Tên nhóm: LapRoiBo
 - Lớp: L3A
 - Repo nhóm: `K5-Day8-LapRoiBo-From-Workflows-to-Agents` (xem [SUBMISSION.md](SUBMISSION.md))
-- URL repo, nhánh nộp, commit chốt: `https://github.com/bquang016/K5-Day8-LapRoiBo-From-Workflows-to-Agents.git`, nhánh `main`, commit `PENDING_COMMIT`
+- URL repo, nhánh nộp, commit chốt: `https://github.com/bquang016/K5-Day8-LapRoiBo-From-Workflows-to-Agents.git`, nhánh `main`, commit `a9b83ce`
 
 ## Thành viên
 
