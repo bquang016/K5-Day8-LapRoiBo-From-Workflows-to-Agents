@@ -5,7 +5,7 @@
 - Họ tên: Bùi Đăng Quang
 - MSSV: 2A202603640
 - Email: 26ai.quangbd2@vinuni.edu.vn
-- GitHub: bquang016
+- GitHub: bquang016 / https://github.com/bquang016
 
 ## 2. Phần việc phụ trách
 
