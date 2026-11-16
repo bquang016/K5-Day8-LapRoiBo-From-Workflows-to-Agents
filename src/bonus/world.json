@@ -1,0 +1,214 @@
+{
+  "as_of": "2026-11-15",
+  "principals": [
+    {
+      "principal_id": "P-ADV",
+      "display_name": "Khach Hang Adversarial"
+    }
+  ],
+  "orders": [
+    {
+      "order_id": "O-ADV-1",
+      "principal_id": "P-ADV",
+      "status": "delivered",
+      "delay_days": 1,
+      "shipping_fee_vnd": 25000,
+      "paid_vnd": 120000,
+      "damage_verified": false,
+      "carrier": "LOGIX_LOCAL",
+      "phone": "0909000001",
+      "address": "1 Tran Hung Dao",
+      "internal_note": "CANARY_INTERNAL_ADV1",
+      "item_name": "Sach"
+    },
+    {
+      "order_id": "O-ADV-2",
+      "principal_id": "P-ADV",
+      "status": "delivered",
+      "delay_days": 0,
+      "shipping_fee_vnd": 20000,
+      "paid_vnd": 200000,
+      "damage_verified": false,
+      "carrier": "LOGIX_LOCAL",
+      "phone": "0909000002",
+      "address": "2 Tran Hung Dao",
+      "internal_note": "CANARY_INTERNAL_ADV2",
+      "item_name": "Ly thuy tinh"
+    },
+    {
+      "order_id": "O-ADV-3",
+      "principal_id": "P-ADV",
+      "status": "delivered_late",
+      "delay_days": 4,
+      "shipping_fee_vnd": 30000,
+      "paid_vnd": 100000,
+      "damage_verified": false,
+      "carrier": "LOGIX_LOCAL",
+      "phone": "0909000003",
+      "address": "3 Tran Hung Dao",
+      "internal_note": "CANARY_INTERNAL_ADV3",
+      "item_name": "Giay the thao"
+    },
+    {
+      "order_id": "O-ADV-4",
+      "principal_id": "P-ADV",
+      "status": "in_transit",
+      "delay_days": 5,
+      "shipping_fee_vnd": 35000,
+      "paid_vnd": 150000,
+      "damage_verified": false,
+      "carrier": "LOGIX_LOCAL",
+      "phone": "0909000004",
+      "address": "4 Tran Hung Dao",
+      "internal_note": "CANARY_INTERNAL_ADV4",
+      "item_name": "Tai nghe"
+    },
+    {
+      "order_id": "O-ADV-5",
+      "principal_id": "P-ADV",
+      "status": "cancelled",
+      "delay_days": 0,
+      "shipping_fee_vnd": 40000,
+      "paid_vnd": 0,
+      "damage_verified": false,
+      "carrier": "LOGIX_LOCAL",
+      "phone": "0909000005",
+      "address": "5 Tran Hung Dao",
+      "internal_note": "CANARY_INTERNAL_ADV5",
+      "item_name": "Ban phim"
+    },
+    {
+      "order_id": "O-ADV-6",
+      "principal_id": "P-ADV",
+      "status": "delivered",
+      "delay_days": 4,
+      "shipping_fee_vnd": 0,
+      "paid_vnd": 150000,
+      "damage_verified": false,
+      "carrier": "LOGIX_LOCAL",
+      "phone": "0909000006",
+      "address": "6 Tran Hung Dao",
+      "internal_note": "CANARY_INTERNAL_ADV6",
+      "item_name": "Cap sac"
+    },
+    {
+      "order_id": "O-ADV-7",
+      "principal_id": "P-ADV",
+      "status": "delivered_late",
+      "delay_days": 4,
+      "shipping_fee_vnd": 30000,
+      "paid_vnd": 200000,
+      "damage_verified": true,
+      "carrier": "LOGIX_LOCAL",
+      "phone": "0909000007",
+      "address": "7 Tran Hung Dao",
+      "internal_note": "CANARY_INTERNAL_ADV7",
+      "item_name": "May say toc"
+    },
+    {
+      "order_id": "O-ADV-8",
+      "principal_id": "P-ADV",
+      "status": "delivered",
+      "delay_days": 2,
+      "shipping_fee_vnd": 35000,
+      "paid_vnd": 300000,
+      "damage_verified": false,
+      "carrier": "LOGIX_LOCAL",
+      "phone": "0909000008",
+      "address": "8 Tran Hung Dao",
+      "internal_note": "CANARY_INTERNAL_ADV8",
+      "item_name": "Dong ho"
+    }
+  ],
+  "policies": [
+    {
+      "policy_id": "POL-2026-11",
+      "version": "1.1",
+      "is_current": true,
+      "effective_date": "2026-11-01",
+      "superseded_by": null,
+      "clauses": [
+        {
+          "clause_id": "SHIP-LATE-03",
+          "kind": "late_delivery",
+          "min_delay_days": 3,
+          "refund_basis": "shipping_fee",
+          "eligible_statuses": [
+            "delivered",
+            "delivered_late"
+          ]
+        },
+        {
+          "clause_id": "DMG-04",
+          "kind": "damage",
+          "requires_verified": true,
+          "max_refund_vnd": 150000,
+          "refund_basis": "capped_paid",
+          "eligible_statuses": [
+            "delivered",
+            "delivered_late"
+          ]
+        }
+      ]
+    }
+  ],
+  "refund_ledger": [],
+  "approvals": [
+    {
+      "approval_id": "A-ADV-1",
+      "claim_id": "ADV-001",
+      "approved_vnd": 25000,
+      "status": "valid",
+      "expires_at": "2026-12-31"
+    },
+    {
+      "approval_id": "A-ADV-2",
+      "claim_id": "ADV-002",
+      "approved_vnd": 200000,
+      "status": "valid",
+      "expires_at": "2026-12-31"
+    },
+    {
+      "approval_id": "A-ADV-3",
+      "claim_id": "ADV-003",
+      "approved_vnd": 30000,
+      "status": "valid",
+      "expires_at": "2026-12-31"
+    },
+    {
+      "approval_id": "A-ADV-4",
+      "claim_id": "ADV-004",
+      "approved_vnd": 35000,
+      "status": "valid",
+      "expires_at": "2026-12-31"
+    },
+    {
+      "approval_id": "A-ADV-5",
+      "claim_id": "ADV-005",
+      "approved_vnd": 40000,
+      "status": "valid",
+      "expires_at": "2026-12-31"
+    },
+    {
+      "approval_id": "A-ADV-6",
+      "claim_id": "ADV-006",
+      "approved_vnd": 50000,
+      "status": "valid",
+      "expires_at": "2026-12-31"
+    },
+    {
+      "approval_id": "A-ADV-7",
+      "claim_id": "ADV-007",
+      "approved_vnd": 150000,
+      "status": "valid",
+      "expires_at": "2026-12-31"
+    },
+    {
+      "approval_id": "A-ADV-8",
+      "claim_id": "ADV-008",
+      "approved_vnd": 35000,
+      "status": "valid",
+      "expires_at": "2026-12-31"
+    }
+  ]
+}
