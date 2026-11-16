@@ -22,6 +22,7 @@ Shape B — Single (ReAct): triển khai `src/lab8/shapes/single.py`, thêm ki�
 
 ## 4. Bằng chứng
 
+- Commit Hash: 60f94bb
 - Test shape Single: `python -m pytest -q -m student -o addopts= tests/test_public_matrix.py -k 'single and not workflow and not orchestrator and not swarm'`
 - Kết quả: **62 passed, 186 deselected**.
 - Test riêng: `test_single_uses_order_delay_and_keeps_trace_free_of_ticket_secrets` trong `src/tests/test_single_shape.py`.
