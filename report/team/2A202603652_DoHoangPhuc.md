@@ -25,7 +25,7 @@
   3. `test_summarize_zero_passes_and_p95_steps`: kiểm tra hàm `lab8.metrics.summarize` khi có 0 trial pass trả về `cost_per_success_vnd = None` (không lỗi chia cho 0) và tính đúng `p95_steps`.
 - **Bằng chứng crash suite:** Chạy `python -m lab8.crash_test --count 20 --out reports/crash.json` tạo `src/reports/crash.json` đạt `20/20`.
 - **Commit chính:** `8a43f09` (`test(ledger,eval): add durability/metrics tests and 20/20 crash report`).
-- **Benchmark & báo cáo cuối buổi *(cập nhật sau khi nhóm hoàn thành đủ 3 shape)*:** `<Điền run_id / kết quả benchmark và ablation sau khi chạy>`.
+- **Benchmark & báo cáo cuối buổi:** Chạy `lab8.benchmark` tạo `src/reports/benchmark.json` (4 shape × 14 claim × 5 seed = 70 trial/shape; `workflow` đạt `pass_rate = 1.000`, `pass^5 = 1.000`, `variance = 0.000000`, `cost/success = 27.86` VND), chạy ablation R1 (`workflow` vs `orchestrator`), và hoàn thiện `decision_adr.md`, `research_card.md`, `group_report.md`, `TEAM.md`. Run ID dẫn chứng: `R-workflow-C-001-s11`.
 
 ## 4. Bằng chứng
 
