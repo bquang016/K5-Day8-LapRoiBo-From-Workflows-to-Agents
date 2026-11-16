@@ -11,8 +11,10 @@
 
 | STT | Họ tên | MSSV | Email | GitHub | Vai trò |
 | --: | ------ | ---- | ----- | ------ | ------- |
-|   1 |        |      |       |        |         |
-|   2 |        |      |       |        |         |
+|   1 | Bùi Đăng Quang | 2A202603640 | 26ai.quangbd2@vinuni.edu.vn | bquang016 | workflow + integration |
+|   2 |        |      |       |        | single |
+|   3 |        |      |       |        | orchestrator + handoff |
+|   4 |        |      |       |        | ledger + evaluation |
 
 Gợi ý chia vai:
 
@@ -25,7 +27,7 @@ Gợi ý chia vai:
 
 | Người | Vai | Commit | Test đã thêm hoặc sửa |
 | --- | --- | --- | --- |
-| | | | |
+| Bùi Đăng Quang | workflow + integration | 9edbf1c | tests/test_workflow_integration.py::test_workflow_injected_crash_propagates |
 
 ## Cá nhân
 
@@ -38,6 +40,23 @@ report/team/MSSV_HoTen.md
 Ví dụ: `report/team/20241234_NguyenVanAn.md`.
 
 Sao chép mục dưới đây cho từng thành viên.
+
+## 2A202603640_BuiDangQuang
+
+### Phần việc phụ trách
+
+- `workflow + integration`: Hiện thực Shape A Workflow (deterministic) và bộ test tích hợp.
+
+### Đóng góp cụ thể
+
+- Hiện thực toàn bộ `src/lab8/shapes/workflow.py`: đảm bảo an toàn bảo mật (không leak secret), tính tiền bằng `compute_compensation`, giao tiếp cổng host qua `durability.issue_refund`, tuân thủ idempotency và xử lý crash safety.
+- Viết test kỹ thuật `src/tests/test_workflow_integration.py`.
+
+### Bằng chứng
+
+- Commit hash: `9edbf1c`
+- Test: `tests/test_workflow_integration.py::test_workflow_injected_crash_propagates`
+- Báo cáo chi tiết: `report/team/2A202603640_BuiDangQuang.md`
 
 ## MSSV_HoTen
 
