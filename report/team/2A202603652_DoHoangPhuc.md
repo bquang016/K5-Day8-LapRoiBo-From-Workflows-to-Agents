@@ -50,4 +50,4 @@
 
 - Đã nắm được ranh giới giữa code và model trong hệ thống (tiền hoàn, approval, trần theo đơn và idempotency do code host quyết định trong transaction SQLite; model/shape không tự sửa ledger).
 - Hoàn thành phần test bổ sung và kiểm thử crash suite `20/20` đúng tiến độ trên nhánh riêng `feat/ledger-evaluation`.
-- Phần việc còn chờ phối hợp cùng nhóm: sau khi 3 thành viên còn lại hoàn thiện `workflow`, `single`, `orchestrator` và merge vào `main`, sẽ chạy `lab8.benchmark` (tạo `src/reports/benchmark.json`), hoàn thiện số liệu vào `decision_adr.md`, `research_card.md`, `group_report.md` và kiểm tra `python -m lab8.check_submission` đạt `0 FAIL`.
+- Đã hoàn thành toàn bộ phần việc `ledger + evaluation`: tích hợp đủ 4 shape trên nhánh, chạy `lab8.benchmark` (`src/reports/benchmark.json`), hoàn thiện số liệu trong `decision_adr.md`, `research_card.md`, `group_report.md`, `TEAM.md` và kiểm tra `python -m lab8.check_submission` đạt `0 FAIL, 0 WARN`.

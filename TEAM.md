@@ -12,7 +12,7 @@
 | STT | Họ tên | MSSV | Email | GitHub | Vai trò |
 | --: | ------ | ---- | ----- | ------ | ------- |
 |   1 | Bùi Đăng Quang | 2A202603640 | 26ai.quangbd2@vinuni.edu.vn | bquang016 | workflow + integration |
-|   2 | Phạm Duy Đức | 2A202603611 | 26ai.ducpd@vinuni.edu.vn | bquang016 | single |
+|   2 | Phạm Duy Đức | 2A202603611 | 26ai.ducpd@vinuni.edu.vn | mynameduyjob | single |
 |   3 | Trương Hoàng Tùng | 2A202603651 | 26ai.tungth2@vinuni.edu.vn | Dobit25 | orchestrator + handoff |
 |   4 | Đỗ Hoàng Phúc | 2A202603652 | 26ai.phucdh@vinuni.edu.vn | Codeforlife-MagicWed | ledger + evaluation |
 
@@ -111,17 +111,3 @@ Sao chép mục dưới đây cho từng thành viên.
 - Commit hash: `8a43f09`
 - Test: `src/tests/test_ledger_evaluation.py`
 - Báo cáo chi tiết: `report/team/2A202603652_DoHoangPhuc.md`
-
-## MSSV_HoTen
-
-### Phần việc phụ trách
-
--
-
-### Đóng góp cụ thể
-
--
-
-### Bằng chứng
-
--
