@@ -19,7 +19,7 @@ Ví dụ: `20241234_NguyenVanAn.md`.
 
 ## 3. Đóng góp cụ thể
 
-- Commit chính: bổ sung sau khi commit phần việc.
+- Commit chính: 1aabf9a61d3b36dee7244cafdad54ecd79bf6327
 - Hiện thực `src/lab8/shapes/orchestrator.py` bằng `make_handoff` và
   `run_readonly_investigators`.
 - Chỉ cấp bốn tool đọc cho investigator: `lookup_order`, `lookup_policy`,
@@ -33,7 +33,7 @@ Ví dụ: `20241234_NguyenVanAn.md`.
 
 ## 4. Bằng chứng
 
-- Commit/link: bổ sung sau khi push lên repository nhóm.
+- Commit/link: 1aabf9a61d3b36dee7244cafdad54ecd79bf6327
 - Test riêng:
   - `test_orchestrator_traces_only_a_sanitized_readonly_handoff`
   - `test_orchestrator_uses_host_for_approval_denial`
