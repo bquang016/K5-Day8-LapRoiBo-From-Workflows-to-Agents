@@ -11,7 +11,7 @@
 
 | STT | Họ tên | MSSV | Email | GitHub | Vai trò |
 | --: | ------ | ---- | ----- | ------ | ------- |
-|   1 | Đỗ Hoàng Phúc | 2A202603652 | 26ai.phucdh@vinuni.edu.vn | Codeforlife-MagicWed | ledger + evaluation |
+|   1 |        |      |       |        |         |
 |   2 |        |      |       |        |         |
 
 Gợi ý chia vai:
@@ -25,7 +25,7 @@ Gợi ý chia vai:
 
 | Người | Vai | Commit | Test đã thêm hoặc sửa |
 | --- | --- | --- | --- |
-| Đỗ Hoàng Phúc | ledger + evaluation | `8a43f09` | `src/tests/test_ledger_evaluation.py` |
+| | | | |
 
 ## Cá nhân
 
