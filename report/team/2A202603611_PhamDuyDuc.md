@@ -18,7 +18,7 @@ Shape B — Single (ReAct): triển khai `src/lab8/shapes/single.py`, thêm ki�
 - Chuyển tiếp `crash_at` tới host và để `InjectedCrash` truyền ra ngoài để kiểm tra đường khôi phục.
 - Ghi trace theo `run_id`, chỉ gồm các trường allowlist; không ghi ticket thô hoặc dữ liệu nhạy cảm.
 - Thêm `src/tests/test_single_shape.py`, kiểm tra ticket khai sai số ngày không lấn át dữ liệu đơn và trace không chứa canary.
-- Commit chính (hash): sẽ ghi sau khi commit phần triển khai lên branch `Single`.
+- Commit chính (hash): `60f94bb` (`Implement single ReAct shape`), branch `Single`.
 
 ## 4. Bằng chứng
 
